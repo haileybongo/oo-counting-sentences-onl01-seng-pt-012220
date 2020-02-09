@@ -22,6 +22,4 @@ class String
     string_array.count
   end
   
-binding.pry
-  
 end

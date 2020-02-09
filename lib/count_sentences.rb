@@ -19,6 +19,7 @@ class String
     #self.count_sentences
     string_array = []
     string_array = self.split("." || "?" || "!")
+    binding.pry
     string_array.count
   end
 binding.pry

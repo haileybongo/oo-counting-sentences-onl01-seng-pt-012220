@@ -22,6 +22,8 @@ class String
     string_aray.map do |sentence|
       if sentence.size == 0 
         sentence.remove 
+      end
+    end
     string_array.count
   end
   

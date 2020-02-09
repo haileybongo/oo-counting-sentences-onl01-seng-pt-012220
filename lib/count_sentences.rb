@@ -20,7 +20,8 @@ class String
     string_array = []
     string_array = self.split(/[.?!]/)
     string_aray.map do |sentence|
-      if sentence.
+      if sentence.size == 0 
+        sentence.remove 
     string_array.count
   end
   

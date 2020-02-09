@@ -20,8 +20,8 @@ class String
     string_array = []
     string_array = self.split("." || "?" || "!")
     string_array.count
-    binding.pry
   end
+  
 binding.pry
   
 end

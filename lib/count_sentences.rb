@@ -19,7 +19,7 @@ class String
     #self.count_sentences
     string_array = []
     string_array = self.split(/[.?!]/)
-    string_aray.map do |sentence|
+    string_array.map do |sentence|
       if sentence.size == 0 
         sentence.remove 
       end

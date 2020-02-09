@@ -19,6 +19,8 @@ class String
     #self.count_sentences
     string_array = []
     string_array = self.split(/[.?!]/)
+    string_aray.map do |sentence|
+      if sentence.
     string_array.count
   end
   

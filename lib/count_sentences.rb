@@ -21,6 +21,6 @@ class String
     string_array = self.split("." || "?" || "!")
     string_array.count
   end
-
+binding.pry
   
 end

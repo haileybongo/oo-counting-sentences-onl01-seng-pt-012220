@@ -21,7 +21,7 @@ class String
     string_array = self.split(/[.?!]/)
     string_array.map do |sentence|
       if sentence.size == 0 
-        sentence.delete  
+        string.array.delete(sentence)  
       end
     end
     string_array.count
